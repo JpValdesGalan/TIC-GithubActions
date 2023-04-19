@@ -6,6 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
     - name: Impresion 1
       run: echo "Impresion 1"
     - name: Impresion 2
