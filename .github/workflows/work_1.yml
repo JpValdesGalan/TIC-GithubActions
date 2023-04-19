@@ -7,5 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      name: Print Something
+    - name: Print Something
       run: echo "Hola Pitaya!"
